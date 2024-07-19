@@ -1,9 +1,9 @@
 {
-  "name": "homebridge-tuya",
+  "name": "homebridge-tuya-Bfork",
 
   "version": "3.1.1b",
 
-  "description": "🏠 Offical Homebridge plugin for TuyAPI ",
+  "description": "🏠 Homebridge plugin for TuyAPI modified by Bryson",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iRayanKhan/homebridge-tuya.git"
+    "url": "git+https://github.com/Bry5on/homebridge-tuya-Bfork.git"
   },
   "author": "Rayan Khan",
   "license": "MIT",
