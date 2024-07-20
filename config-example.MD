@@ -44,7 +44,7 @@ The configuration parameters to enable your devices would need to be added to `p
 
 
 Bryson Ceiling Fan Config
-
+```json5
 {
     "devices": [
         {
