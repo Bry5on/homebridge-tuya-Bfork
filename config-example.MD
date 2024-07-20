@@ -41,3 +41,32 @@ The configuration parameters to enable your devices would need to be added to `p
 * `ip` needs to be added **_only_** if you face discovery issues. See [Common Problems](https://github.com/iRayanKhan/homebridge-tuya/wiki/Common-Problems) for more details.   
 
 > To find out which `id` belongs to which device, open the Tuya Smart app and check the `Device Information` by tapping the configuration icon of your devices; it is almost always a tiny icon on the top-right.
+
+
+Bryson Ceiling Fan Config
+
+{
+    "devices": [
+        {
+            "type": "FanLight",
+            "name": "Bedroom Ceiling Fan",
+            "id": "eb8b43965e41fdfe07viw5",
+            "key": "lj{Mp]9O[3yx;^aW",
+            "dpLightOn": 20,
+            "useBrightness": true,
+            "dpBrightness": 22,
+            "minBrightness": 1,
+            "scaleBrightness": 100,
+            "dpFanOn": 60,
+            "dpRotationSpeed": 62,
+            "fanDefaultSpeed": 8,
+            "useStrings": false,
+            "maxSpeed": 100
+        }
+    ],
+    "_bridge": {
+        "username": "0E:36:74:7A:EC:EC",
+        "port": 49179
+    },
+    "platform": "TuyaLan"
+}
